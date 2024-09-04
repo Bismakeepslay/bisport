@@ -1,0 +1,333 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.hero-section {
+    position: relative;
+    z-index: 2;
+}
+
+.carousel {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.596); /* Efek bayangan */
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 400px; /* Atur tinggi gambar sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar tetap proporsional dan terisi penuh */
+    border-radius: 15px; /* Menambahkan border-radius */
+}
+
+/* Sesuaikan tombol carousel jika perlu */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) invert(1); /* Mengubah warna ikon agar lebih jelas di atas gambar */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); /* Efek bayangan */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Large Circle Shape */
+.circle-shape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #00ff88; /* Ganti dengan warna yang diinginkan */
+    border-radius: 50%;
+    transform: translate(-70px, -70px);
+}
+
+.circle-shape2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #bee5ff; /* Ganti dengan warna yang diinginkan */
+    border-radius: 50%;
+    transform: translate( -4000px, -2100px);
+}
+
+.circle-shape3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #e1c5ff; /* Ganti dengan warna yang diinginkan */
+    border-radius: 50%;
+    transform: translate(-800px, -70px);
+}
+
+.circle-shape4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #bee5ff; /* Ganti dengan warna yang diinginkan */
+    border-radius: 50%;
+    transform: translate( -1300px, -1960px);
+}
+
+.circle-shape5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #00ff88; /* Ganti dengan warna yang diinginkan */
+    border-radius: 50%;
+    transform: translate(-800px, -70px);
+}
+
+.circle-shape6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #bee5ff; /* Ganti dengan warna yang diinginkan */
+    border-radius: 50%;
+    transform: translate(-800px, -70px);
+}
+
+/* Text Centered */
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section .rotated-image-container {
+    position: relative;
+    width: 300px; /* Sesuaikan ukuran container */
+    height: 300px; /* Sesuaikan ukuran container */
+    transform: rotate(45deg); /* Rotasi container */
+    overflow: hidden; /* Agar gambar tidak melampaui batas elemen */
+    border-radius: 20px; /* Sudut melengkung */
+    background-color: #3195ff; /* Warna background sesuai bentuk mask */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Efek bayangan */
+}
+
+.hero-section .rotated-image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Sesuaikan untuk memperbesar ukuran gambar */
+    height: auto;
+    object-fit: cover; /* Memastikan gambar tetap terisi penuh */
+    transform: translate(-50%, -50%) rotate(-45deg); /* Memposisikan gambar di tengah dan membalikkan rotasi */
+    border-radius: 20px; /* Sudut melengkung pada gambar */
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn-blue {
+    background-color: #3195ff; /* Warna background sesuai bentuk mask */
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 30px;
+}
+
+.hero-section .btn-blue:hover {
+    background-color: #115eb0; /* Warna background sesuai bentuk mask */
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 30px;
+}
+
+.hero-section .btn-outline-dark {
+    border-width: 2px;
+    color: #333;
+    font-weight: 600;
+    padding: 12px 30px;
+    margin-right: 15px;
+}
+
+.hero-section .btn-outline-dark:hover {
+    border-width: 2px;
+    background-color: #333;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 30px;
+    margin-right: 15px;
+}
+
+.hero-section .btn-green {
+    background-color: #00ff88;
+    border-width: 2px;
+    font-weight: bold;
+    padding: 12px 30px;
+}
+
+.hero-section .btn-green:hover {
+    background-color: #1cd37e;
+    font-weight: bold;
+    color: white;
+    border-width: 2px;
+    font-weight: 600;
+    padding: 12px 30px;
+}
+
+.hero-section .btn-purple {
+    background-color: #ce79fc;
+    border-width: 2px;
+    font-weight: bold;
+    padding: 12px 30px;
+}
+
+.hero-section .btn-purple:hover {
+    background-color: #a970c7;
+    font-weight: bold;
+    color: white;
+    border-width: 2px;
+    font-weight: 600;
+    padding: 12px 30px;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+/* Trusted By Section */
+.trusted-by {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.trusted-by h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.trusted-by p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 0;
+}
+
+/* Products Section */
+.products-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.products-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffd600;
+}
+
+.product-item .btn {
+    font-weight: 600;
+    padding: 10px 20px;
+    border-width: 2px;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .social-icons a:hover {
+    color: #00ff88;
+}

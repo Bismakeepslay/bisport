@@ -1,0 +1,178 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+.hero-section {
+    background-color: #FF5000;
+    color: white;
+    padding: 60px 0;
+    border-radius: 50px;
+    margin-top: 140px;
+    position: relative;
+}
+.hero-section img {
+    max-width: 100%;
+    margin-left: -100px;
+    border-radius: 30px;
+}
+.hero-section .btn {
+    border-radius: 50px;
+    padding: 12px 24px;
+    font-size: 1.2em;
+}
+.feature-section {
+    padding: 60px 0;
+}
+.feature-box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.feature-box img {
+    width: 200px;
+    height: auto;
+}
+.feature-box i {
+    font-size: 100px;
+}
+.course-section {
+    padding: 60px 0;
+    background-color: #f0f0f0;
+}
+.course-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Mengatur card agar elemen-elemen di dalamnya tersebar merata */
+    height: 100%; /* Membuat card memenuhi tinggi container */
+}
+
+.course-card h4, .course-card p {
+    margin-bottom: 15px; /* Menambahkan jarak antara elemen teks di dalam card */
+}
+
+.course-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .course-card {
+        height: 100%; /* Pastikan card memiliki tinggi yang sama di layar yang lebih besar */
+    }
+}
+.course-card:hover {
+    transform: translateY(-10px);
+}
+.footer-section {
+    background-color: #FF5000;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-logo img {
+    width: 40px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-actions .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.coba-premium {
+    background-color: #5a2aab;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.masuk, .daftar {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 89, 0);
+}
+
+.masuk:hover, .daftar:hover {
+    background-color: #f3f3f3;
+}
+
+.coba-premium:hover {
+    background-color: #ff6a00;
+}
+.shadow-custom {
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Sesuaikan nilai bayangan sesuai keinginan */
+transition: box-shadow 0.3s ease;
+}
+.shadow-custom:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.35); /* Bayangan lebih kuat saat hover */
+}
+.dropdown-menu {
+    display: none; /* Sembunyikan menu dropdown awalnya */
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+    padding: 10px 0;
+    border-radius: 15px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Tampilkan Dropdown Menu saat Hover */
+.navbar-links .dropdown:hover .dropdown-menu {
+    display: block;
+}
